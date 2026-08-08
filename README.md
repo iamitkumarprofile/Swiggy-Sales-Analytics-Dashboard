@@ -6,6 +6,10 @@ An interactive Swiggy Sales Analytics Dashboard built in Microsoft Excel to anal
 
 ![Swiggy Sales Dashboard](./Dashboard_Preview.png)
 
+### 🌐 View Excel Workbook Online
+
+[📊 Open Excel Dashboard in Browser](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/iamitkumarprofile/Swiggy-Sales-Analytics-Dashboard/main/Swiggy_Sales_Dashboard.xlsx)
+
 ## 📥 Download the Interactive Excel Dashboard
 
 [📊 Download Swiggy Sales Dashboard](./Swiggy_Sales_Dashboard.xlsx)
