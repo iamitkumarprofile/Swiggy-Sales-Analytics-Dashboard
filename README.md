@@ -1,6 +1,6 @@
 # 📊 Swiggy Sales Analytics Dashboard – Excel
 
-An interactive Swiggy Sales Analytics Dashboard built in Microsoft Excel to analyze sales performance, orders, customer ratings, food preferences, and geographic performance.
+An interactive Swiggy Sales Analytics Dashboard built in Microsoft Excel to analyze sales performance, orders, customer ratings, food preferences and geographic performance.
 
 ## 📸 Dashboard Preview
 
@@ -18,7 +18,7 @@ An interactive Swiggy Sales Analytics Dashboard built in Microsoft Excel to anal
 
 This project transforms raw Swiggy sales data into an interactive business dashboard using Excel data analysis and visualization techniques.
 
-The dashboard provides a consolidated view of sales performance across different time periods, food types, states, cities, and restaurants.
+The dashboard provides a consolidated view of sales performance across different time periods, food types, states, cities and restaurants.
 
 ## 🛠️ Tools & Technologies
 
@@ -86,6 +86,35 @@ These fields were used to support meaningful business analysis and dashboard vis
 |---|---|
 | `Swiggy_Sales_Dashboard.xlsx` | Complete interactive Excel dashboard |
 | `Dashboard_Preview.png` | Dashboard preview image |
+
+
+## 🧩 Challenges Faced & Solutions
+
+### 1. Raw Data Did Not Have Food Type
+The dataset did not directly classify dishes as Veg or Non-Veg.
+
+**Solution:** Created a `Food Type` column using Excel 'IF' and 'OR' logic to identify non-vegetarian keywords such as Chicken, Egg, Fish, Mutton, Prawns, Biryani and Kebab.
+
+### 2. Creating Time-Based Analysis
+The raw date field needed to be transformed into useful time dimensions for analysis.
+
+**Solution:** Created additional fields for Month, Day and Quarter to analyze monthly, daily, weekly and quarterly sales trends.
+
+### 3. Dashboard Layout & Visualization
+Fitting multiple KPIs, charts, a map, and slicers into a single dashboard while keeping it readable was challenging.
+
+**Solution:** Used a structured dashboard layout with KPI cards, consistent formatting, charts, slicers and a dedicated analysis sheet.
+
+### 4. Slicer Formatting
+Slicers created on the Analysis sheet appeared smaller when placed on the Dashboard, making the text difficult to read.
+
+**Solution:** Adjusted slicer dimensions, button size, columns and formatting to improve readability and maintain consistency with the dashboard design.
+
+### 5. Data Categorization & Aggregation
+The raw dataset required transformation before meaningful business insights could be generated.
+
+**Solution:** Used PivotTables and calculated fields to aggregate sales, orders, ratings, food types, states, cities and time periods.
+
 
 ## 🎯 Learning Outcomes
 
