@@ -88,33 +88,40 @@ These fields were used to support meaningful business analysis and dashboard vis
 | `Dashboard_Preview.png` | Dashboard preview image |
 
 
+
 ## 🧩 Challenges Faced & Solutions
 
-### 1. Raw Data Did Not Have Food Type
-The dataset did not directly classify dishes as Veg or Non-Veg.
+While building this dashboard, I faced a few challenges while working with the raw data and Excel visualizations.
 
-**Solution:** Created a `Food Type` column using Excel 'IF' and 'OR' logic to identify non-vegetarian keywords such as Chicken, Egg, Fish, Mutton, Prawns, Biryani and Kebab.
+### 1. Adding Food Type Classification
+
+The raw dataset did not have a separate Veg/Non-Veg column, but I wanted to compare sales based on food type.
+
+**How I solved it:** I created a `Food Type` column using `IF` and `OR` formulas. I used keywords such as Chicken, Egg, Fish, Mutton, Prawns, Biryani and Kebab to classify the dishes as Non-Veg; the remaining dishes were classified as Veg.
 
 ### 2. Creating Time-Based Analysis
-The raw date field needed to be transformed into useful time dimensions for analysis.
 
-**Solution:** Created additional fields for Month, Day and Quarter to analyze monthly, daily, weekly and quarterly sales trends.
+The original date data was not enough for the different time-based views I wanted in the dashboard.
 
-### 3. Dashboard Layout & Visualization
-Fitting multiple KPIs, charts, a map, and slicers into a single dashboard while keeping it readable was challenging.
+**How I solved it:** I created separate Month, Day and Quarter fields. This helped me analyze monthly, daily, weekly and quarterly sales trends.
 
-**Solution:** Used a structured dashboard layout with KPI cards, consistent formatting, charts, slicers and a dedicated analysis sheet.
+### 3. Designing the Dashboard
+
+It was challenging to fit KPIs, charts, a map, tables and slicers into one dashboard without making it look crowded.
+
+**How I solved it:** I arranged the dashboard section by section and used consistent formatting, spacing and chart sizes to make the important information easier to read.
 
 ### 4. Slicer Formatting
-Slicers created on the Analysis sheet appeared smaller when placed on the Dashboard, making the text difficult to read.
 
-**Solution:** Adjusted slicer dimensions, button size, columns and formatting to improve readability and maintain consistency with the dashboard design.
+One issue I faced was that the slicers looked different in size and text readability when I moved them from the Analysis sheet to the Dashboard.
 
-### 5. Data Categorization & Aggregation
-The raw dataset required transformation before meaningful business insights could be generated.
+**How I solved it:** I adjusted the slicer size, button height, number of columns and formatting to make them fit better with the dashboard layout.
 
-**Solution:** Used PivotTables and calculated fields to aggregate sales, orders, ratings, food types, states, cities and time periods.
+### 5. Working with PivotTables and Aggregations
 
+The raw data needed to be summarized before I could create meaningful charts and comparisons.
+
+**How I solved it:** I used PivotTables and PivotCharts to summarize sales, orders, ratings, food types, states, cities and different time periods.
 
 ## 🎯 Learning Outcomes
 
